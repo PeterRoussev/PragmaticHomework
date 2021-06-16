@@ -91,6 +91,10 @@ public class AdminDashboardPage extends BasePage {
         Assert.assertEquals(actualCustomerName, expectedCustomerName);
         filterOrderID.clear();
     }
+
+    /** Trying to change the currency the product will be paid with
+     * @param orderID you can find it on product order page
+     */
     public static void editOrder(String orderID){
         filterOrderID.sendKeys(orderID);
         filterButton.click();
