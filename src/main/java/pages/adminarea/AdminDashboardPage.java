@@ -83,6 +83,11 @@ public class AdminDashboardPage extends BasePage {
     public static void viewSalesBoardPage(){
         viewSalesBoard.click();
     }
+
+    /** Checking order id and customer name are as expected
+     * @param orderID order id used in the search bar
+     * @param expectedCustomerName Customer's name
+     */
     public static void specificOrderCustomerVerification(String orderID, String expectedCustomerName){
 
         filterOrderID.sendKeys(orderID);
