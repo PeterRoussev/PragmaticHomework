@@ -9,6 +9,9 @@ import org.testng.Assert;
 import pages.frontend.ProductOrderPage;
 import utils.Browser;
 
+/**
+ * Testing shop.pragmatic.com
+ */
 public class ProductOrderTest {
 
     String productName1;
